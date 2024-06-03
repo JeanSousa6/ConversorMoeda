@@ -3,9 +3,6 @@ import java.util.InputMismatchException;
 import java.util.Locale;
 import java.util.Scanner;
 
-
-//6 opções - Reais BRL || Dólar Americano USD || Peso Argentino (ARS)|| Euro (EUR) || Yuan (CNY)
-
 public class Main {
     public static void main(String[] args) throws InterruptedException {
 
@@ -56,30 +53,3 @@ public class Main {
         }
     }
 }
-
-
-
-
-
-
-
-
-//    public double valorConvertido(int numOp){
-//        AlterarValor alterarValor = new AlterarValor();
-//        CoeficienteDeConversao coeficienteDeConversao = new CoeficienteDeConversao();
-//        String siglaReferencia;
-//        String siglaMoeda;
-//
-//       switch(numOp){
-//           case 1: // USD -> BRL
-//               siglaReferencia = "USD";
-//               siglaMoeda = alterarValor.getTipoMoeda(2); // 2 acessa o valor BRL na lista em alteraValor
-//               return coeficienteDeConversao.valorCoeficienteConversao(siglaReferencia, siglaMoeda);
-//               break;
-//           case 2: // USD -> BRL
-//               siglaReferencia = "BRL";
-//               siglaMoeda = alterarValor.getTipoMoeda(1); // 1 acessa o valor USD na lista em alteraValor
-//               return coeficienteDeConversao.valorCoeficienteConversao(siglaReferencia, siglaMoeda);
-//           break;
-//
-//       }
