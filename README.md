@@ -20,7 +20,7 @@
 * [Postman](https://www.postman.com/)
 * [IntelliJ IDEA](https://www.jetbrains.com/idea/)
 * [API ExchangeRate](https://www.exchangerate-api.com/)
-* [Gson - Biblioteca de Serialização e Deserialização de arquivos Json](https://github.com/google/gson)
+* [Gson - Tratamento de arquivos Json](https://github.com/google/gson)
 
 ## Classes e Records
 
